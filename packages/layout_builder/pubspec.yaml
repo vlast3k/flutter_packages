@@ -1,5 +1,5 @@
 name: layout_builder
-description: Layout building templates for apps built by https://github.com/julienlebren 
+description: Layout building templates for apps built by https://github.com/vlast3k 
 version: 2.5.5
 homepage: https://twitter.com/hikeland
 publish_to: none
@@ -15,17 +15,17 @@ dependencies:
     sdk: flutter
   extensions:
     git:
-      url: https://github.com/julienlebren/flutter_packages
+      url: https://github.com/vlast3k/flutter_packages
       path: packages/extensions
     version: ^0.2.4
   localization:
     git:
-      url: https://github.com/julienlebren/flutter_packages
+      url: https://github.com/vlast3k/flutter_packages
       path: packages/localization
     version: ^1.1.3
   modal_bottom_sheet:
     git:
-      url: https://github.com/julienlebren/flutter_packages
+      url: https://github.com/vlast3k/flutter_packages
       path: packages/modal_bottom_sheet
     version: ^2.0.2-dev.1
   cached_network_image: ^3.1.0-alpha.1 
