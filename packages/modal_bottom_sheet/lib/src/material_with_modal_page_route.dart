@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide ModalBottomSheetRoute;
 
-import '../modal_bottom_sheet.dart';
+//import '../modal_bottom_sheet.dart';
 import 'bottom_sheet_route.dart';
 
 class MaterialWithModalsPageRoute<T> extends MaterialPageRoute<T> {
@@ -14,7 +14,7 @@ class MaterialWithModalsPageRoute<T> extends MaterialPageRoute<T> {
     RouteSettings? settings,
     bool maintainState = true,
     bool fullscreenDialog = false,
-  })  : super(
+  }) : super(
             settings: settings,
             fullscreenDialog: fullscreenDialog,
             builder: builder,
